@@ -1,0 +1,231 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "iPhone 15 Pro Max",
+      "preco": 9499.90,
+      "categoria": "Celulares",
+      "imagem": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&q=80",
+      "descricao": "O iPhone 15 Pro Max traz chip A17 Pro, câmera de 48MP com zoom óptico 5x, titanium design e USB-C com velocidades ProRes. Uma experiência premium sem igual.",
+      "especificacoes": {
+        "Processador": "Apple A17 Pro (3nm)",
+        "Tela": "6.7\" Super Retina XDR OLED",
+        "Câmera Principal": "48MP, f/1.78, OIS",
+        "Zoom Óptico": "5x (120mm)",
+        "Bateria": "4422 mAh",
+        "Armazenamento": "256GB / 512GB / 1TB",
+        "Conectividade": "5G, Wi-Fi 6E, USB-C 3.0",
+        "Sistema": "iOS 17",
+        "Peso": "221g"
+      },
+      "rating": 4.9,
+      "avaliacoes": 3847,
+      "emEstoque": true,
+      "lancamento": "Setembro 2023"
+    },
+    {
+      "id": 2,
+      "nome": "Samsung Galaxy S24 Ultra",
+      "preco": 8299.00,
+      "categoria": "Celulares",
+      "imagem": "https://images.unsplash.com/photo-1706430942079-e25ee1a97a09?w=600&q=80",
+      "descricao": "Galaxy S24 Ultra com S Pen integrada, câmera de 200MP, processador Snapdragon 8 Gen 3 e tela Dynamic AMOLED 2X de 6.8 polegadas.",
+      "especificacoes": {
+        "Processador": "Snapdragon 8 Gen 3",
+        "Tela": "6.8\" Dynamic AMOLED 2X, 120Hz",
+        "Câmera Principal": "200MP, f/1.7, OIS",
+        "Zoom Óptico": "10x (Space Zoom 100x)",
+        "Bateria": "5000 mAh, 45W",
+        "Armazenamento": "256GB / 512GB / 1TB",
+        "Conectividade": "5G, Wi-Fi 7, USB-C 3.2",
+        "Sistema": "Android 14 / One UI 6.1",
+        "Peso": "232g"
+      },
+      "rating": 4.8,
+      "avaliacoes": 2156,
+      "emEstoque": true,
+      "lancamento": "Janeiro 2024"
+    },
+    {
+      "id": 3,
+      "nome": "MacBook Pro 14\" M3 Pro",
+      "preco": 16999.00,
+      "categoria": "Notebooks",
+      "imagem": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
+      "descricao": "MacBook Pro com chip M3 Pro, tela Liquid Retina XDR de 14 polegadas, até 18h de bateria e desempenho imbatível para profissionais criativos.",
+      "especificacoes": {
+        "Processador": "Apple M3 Pro (12 núcleos)",
+        "Tela": "14.2\" Liquid Retina XDR, 120Hz",
+        "Memória RAM": "18GB / 36GB Unified",
+        "Armazenamento": "512GB / 1TB / 2TB SSD",
+        "GPU": "18 núcleos",
+        "Bateria": "Até 18 horas",
+        "Portas": "3x Thunderbolt 4, HDMI 2.1, SD",
+        "Sistema": "macOS Sonoma",
+        "Peso": "1.61 kg"
+      },
+      "rating": 4.9,
+      "avaliacoes": 1923,
+      "emEstoque": true,
+      "lancamento": "Outubro 2023"
+    },
+    {
+      "id": 4,
+      "nome": "Dell XPS 15 OLED",
+      "preco": 12499.00,
+      "categoria": "Notebooks",
+      "imagem": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80",
+      "descricao": "Dell XPS 15 com display OLED 3.5K, Intel Core i9, NVIDIA RTX 4070 e 32GB RAM DDR5. O notebook Windows mais elegante para criação e produtividade.",
+      "especificacoes": {
+        "Processador": "Intel Core i9-13900H",
+        "Tela": "15.6\" OLED 3.5K, 60Hz",
+        "Memória RAM": "32GB DDR5",
+        "Armazenamento": "1TB NVMe SSD",
+        "GPU": "NVIDIA RTX 4070 8GB",
+        "Bateria": "86Wh, até 13 horas",
+        "Portas": "2x Thunderbolt 4, USB-A, SD",
+        "Sistema": "Windows 11 Pro",
+        "Peso": "1.86 kg"
+      },
+      "rating": 4.6,
+      "avaliacoes": 874,
+      "emEstoque": false,
+      "lancamento": "Março 2023"
+    },
+    {
+      "id": 5,
+      "nome": "Sony WH-1000XM5",
+      "preco": 1899.00,
+      "categoria": "Acessórios",
+      "imagem": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&q=80",
+      "descricao": "Fone over-ear com cancelamento de ruído líder da indústria, até 30h de bateria, áudio LDAC Hi-Res e design ultraleve de apenas 250g.",
+      "especificacoes": {
+        "Tipo": "Over-ear, fechado",
+        "Cancelamento de Ruído": "Ativo (8 microfones)",
+        "Drivers": "30mm, neodímio",
+        "Conectividade": "Bluetooth 5.2, NFC, P2",
+        "Codecs": "LDAC, AAC, SBC",
+        "Bateria": "30h (NC ativado) / 40h (sem NC)",
+        "Carregamento": "USB-C, 3min = 3h de uso",
+        "Peso": "250g"
+      },
+      "rating": 4.8,
+      "avaliacoes": 5412,
+      "emEstoque": true,
+      "lancamento": "Maio 2022"
+    },
+    {
+      "id": 6,
+      "nome": "PlayStation 5 Slim",
+      "preco": 3999.00,
+      "categoria": "Games",
+      "imagem": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=600&q=80",
+      "descricao": "PS5 Slim com SSD ultra-rápido de 1TB, Ray Tracing, 4K 120fps e controle DualSense com feedback háptico. A nova geração de jogos na palma da sua mão.",
+      "especificacoes": {
+        "CPU": "AMD Zen 2, 8 núcleos, 3.5GHz",
+        "GPU": "AMD RDNA 2, 10.28 TFLOPS",
+        "Resolução": "4K, 8K (upscaling)",
+        "Taxa de Frames": "Até 120fps",
+        "SSD": "1TB NVMe",
+        "Óptico": "Ultra HD Blu-ray 4K",
+        "Conectividade": "USB-A 3.1, USB-C, HDMI 2.1",
+        "Áudio": "Tempest 3D AudioTech",
+        "Peso": "3.2 kg"
+      },
+      "rating": 4.9,
+      "avaliacoes": 7231,
+      "emEstoque": true,
+      "lancamento": "Novembro 2023"
+    },
+    {
+      "id": 7,
+      "nome": "Xbox Series X",
+      "preco": 4299.00,
+      "categoria": "Games",
+      "imagem": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=600&q=80",
+      "descricao": "Xbox Series X com 12 teraflops de poder, SSD NVMe de 1TB, Quick Resume e suporte nativo a 4K 60fps e 8K. O console mais poderoso já feito.",
+      "especificacoes": {
+        "CPU": "AMD Zen 2, 8 núcleos, 3.8GHz",
+        "GPU": "AMD RDNA 2, 12 TFLOPS",
+        "Resolução": "4K nativo, 8K",
+        "Taxa de Frames": "Até 120fps",
+        "SSD": "1TB NVMe (Custom)",
+        "Óptico": "Ultra HD Blu-ray",
+        "Conectividade": "3x USB-A, HDMI 2.1, Storage Exp.",
+        "Recurso": "Quick Resume, FPS Boost",
+        "Peso": "4.45 kg"
+      },
+      "rating": 4.7,
+      "avaliacoes": 4089,
+      "emEstoque": true,
+      "lancamento": "Novembro 2020"
+    },
+    {
+      "id": 8,
+      "nome": "iPad Pro 12.9\" M2",
+      "preco": 9799.00,
+      "categoria": "Celulares",
+      "imagem": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&q=80",
+      "descricao": "iPad Pro com chip M2, tela mini-LED Liquid Retina XDR, conectividade Thunderbolt e suporte a Apple Pencil 2. O tablet mais avançado do mundo.",
+      "especificacoes": {
+        "Processador": "Apple M2 (8 núcleos)",
+        "Tela": "12.9\" mini-LED Liquid Retina XDR",
+        "Memória RAM": "8GB / 16GB",
+        "Armazenamento": "128GB a 2TB",
+        "GPU": "10 núcleos",
+        "Câmera": "12MP Wide + 10MP Ultra Wide",
+        "Conectividade": "Wi-Fi 6E, 5G (opcional), Thunderbolt",
+        "Sistema": "iPadOS 16",
+        "Peso": "682g"
+      },
+      "rating": 4.8,
+      "avaliacoes": 2743,
+      "emEstoque": false,
+      "lancamento": "Outubro 2022"
+    },
+    {
+      "id": 9,
+      "nome": "Logitech MX Master 3S",
+      "preco": 599.90,
+      "categoria": "Acessórios",
+      "imagem": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80",
+      "descricao": "Mouse premium com scroll MagSpeed ultrasilencioso, sensor de 8000 DPI, bateria recarregável de 70 dias e conectividade em até 3 dispositivos.",
+      "especificacoes": {
+        "Sensor": "Darkfield High Precision, 8000 DPI",
+        "Botões": "7 programáveis",
+        "Scroll": "MagSpeed Eletromagnético",
+        "Conectividade": "Bluetooth, Logi Bolt (USB)",
+        "Dispositivos": "Até 3 (Easy-Switch)",
+        "Bateria": "70 dias (recarga USB-C)",
+        "Compatibilidade": "Windows, macOS, iPadOS, Linux",
+        "Peso": "141g"
+      },
+      "rating": 4.7,
+      "avaliacoes": 9876,
+      "emEstoque": true,
+      "lancamento": "Junho 2022"
+    },
+    {
+      "id": 10,
+      "nome": "Nintendo Switch OLED",
+      "preco": 2199.00,
+      "categoria": "Games",
+      "imagem": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=600&q=80",
+      "descricao": "Nintendo Switch com tela OLED de 7 polegadas, 64GB de armazenamento interno, dock ajustável com porta LAN integrada e Joy-Cons em branco.",
+      "especificacoes": {
+        "CPU/GPU": "NVIDIA Custom Tegra",
+        "Tela": "7\" OLED, 1280×720",
+        "Armazenamento": "64GB interno + microSD",
+        "Bateria": "4310 mAh, 4.5–9h",
+        "Conectividade": "Wi-Fi 802.11ac, Bluetooth 4.1",
+        "Dock": "HDMI, USB-A x2, LAN integrada",
+        "Modos": "TV, Mesa, Portátil",
+        "Peso": "320g (sem Joy-Con)"
+      },
+      "rating": 4.8,
+      "avaliacoes": 6521,
+      "emEstoque": true,
+      "lancamento": "Outubro 2021"
+    }
+  ]
+}

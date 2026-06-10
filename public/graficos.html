@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUSSHOP — Análise do Catálogo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="graficos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">NEXUS<span class="logo-accent">SHOP</span></span>
+      </a>
+      <p class="header-tagline">Análise do Catálogo</p>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+
+    <a href="index.html" class="nav-link">← Voltar ao catálogo</a>
+
+    <h1 class="page-title">📊 Análise do Catálogo</h1>
+    <p class="page-subtitle">Visualização dinâmica dos dados dos produtos — gerada com Chart.js a partir dos dados do catálogo.</p>
+
+    <div class="stats-row" id="stats-row"></div>
+
+    <div class="charts-grid">
+
+      <div class="chart-card">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Produtos por Categoria</div>
+            <div class="chart-desc">Distribuição do catálogo entre as categorias disponíveis</div>
+          </div>
+          <span class="chart-badge">Pizza</span>
+        </div>
+        <div class="chart-wrap chart-wrap--pizza">
+          <canvas id="chartPizza"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Preço Médio por Categoria</div>
+            <div class="chart-desc">Valor médio (R$) dos produtos em cada categoria</div>
+          </div>
+          <span class="chart-badge">Barras</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartPreco"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Avaliação Média por Categoria</div>
+            <div class="chart-desc">Rating médio (0–5) dos produtos em cada categoria</div>
+          </div>
+          <span class="chart-badge">Barras</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartRating"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-card chart-card--wide">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Total de Avaliações por Produto</div>
+            <div class="chart-desc">Quantidade acumulada de avaliações de clientes para cada produto do catálogo</div>
+          </div>
+          <span class="chart-badge">Barras Horizontais</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartAvaliacoes" style="max-height:420px;"></canvas>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>NEXUSSHOP · Matrícula: 1638573</p>
+  </footer>
+
+  <script src="graficos.js"></script>
+</body>
+</html>
