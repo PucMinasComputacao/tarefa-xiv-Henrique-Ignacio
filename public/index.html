@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUSSHOP — Catálogo de Produtos Tech</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
 </head>
 <body>
-    
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">NEXUS<span class="logo-accent">SHOP</span></span>
+      </a>
+      <p class="header-tagline">Catálogo de Produtos Tech</p>
+    </div>
+  </header>
+
+  <main class="main-wrapper">
+
+    <section class="controls-bar">
+      <div class="controls-inner">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input id="search" type="text" placeholder="Buscar produto..." autocomplete="off" />
+        </div>
+        <div class="select-wrap">
+          <select id="category">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <button id="btnRender">
+          <span>↻</span> Renderizar
+        </button>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="section-label">
+        <span id="product-count" class="count-badge">0 produtos</span>
+      </div>
+      <div id="product-list"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>NEXUSSHOP · Matrícula: 1638573</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
